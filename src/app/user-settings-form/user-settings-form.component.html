@@ -1,10 +1,42 @@
 <div class="container">
   <h2>User Settings</h2>
   <form>
-    <div class="form-group">
+
+    <div class="form-group mt-5">
       <label for="name">Name</label>
       <input id="name" name="name" class="form-control"/>
     </div>
-    <button class="btn btn-primary mt-2">Send</button>
+
+    <div class="form-check mt-3 mb-5">
+      <input class="form-check-input" type="checkbox" value="" id="emailOffers">
+      <label class="form-check-label" for="emailOffers">
+        Email Special Offers
+      </label>
+    </div>
+
+    <h5>User Interface Style</h5>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="interfaceStyle" id="lightInterface">
+        <label class="form-check-label" for="lightInterface">
+          Light
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="interfaceStyle" id="mediumInterface" >
+        <label class="form-check-label" for="mediumInterface">
+          Medium
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="interfaceStyle" id="darkInterface" >
+        <label class="form-check-label" for="darkInterface">
+          Dark
+        </label>
+      </div>
+    </div>
+
+    <button class="btn btn-primary mt-5">Send</button>
+
   </form>
 </div>
